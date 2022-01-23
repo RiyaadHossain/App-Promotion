@@ -1,0 +1,18 @@
+nav{
+    height: 80px;
+}
+.banner{
+    min-height: calc(100vh - 80px);
+}
+.bg_gradient{
+    background-image: linear-gradient(90deg, blue, purple);
+}
+.get{
+    background-image: url(../Image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    background-color: rgba(3, 3, 3, 0.404);
+    background-blend-mode: overlay;
+}
